@@ -1,3 +1,8 @@
+import nltk
+nltk.download('stopwords',quite=True)
+nltk.download('wordnet',quite=True)
+nltk.download('punkt',quit=True)
+nltk.download('punk_tab')
 from nltk.corpus import movie_reviews,stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
